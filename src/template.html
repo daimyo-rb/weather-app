@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+  <h1>Weather App</h1>
+  <form id="weather-form">
+      <label for="location">Location</label>
+      <input type="text" id="location">
+      <button type="submit" id="location-btn">Submit</button>
+  </form>
+  <div class="weatherRes">
+    <div class="temp">
+      <p>Temperature (farenheit)</p>
+      <p></p>
+    </div>
+    <div class="conditions">
+      <p>Conditions</p>
+      <p></p>
+    </div>
+    <div class="precip">
+      <p>Precipitation chance</p>
+      <p></p>
+    </div>
+    <div class="wind">
+      <p>Wind speed (mph)</p>
+      <p></p>
+    </div>
+    <div class="time">
+      <p>Local time</p>
+      <p></p>
+    </div>
+  </div>
 </body>
 </html>
